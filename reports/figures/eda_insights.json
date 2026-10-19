@@ -1,0 +1,27 @@
+{
+  "rating_distribution": {
+    "what_happened": "Ratings are heavily skewed towards positive scores, with 4.0 (26,818) and 3.0 (20,047) being the most common.",
+    "why_did_it_happen": "Users generally self-select movies they anticipate enjoying and tend to avoid or neglect rating movies they dislike.",
+    "why_it_matters": "The baseline rating mean is around 3.5. Incorporating a global mean \u03bc and user/movie bias terms in Matrix Factorization is essential to correct for this intrinsic skew."
+  },
+  "user_movie_activity": {
+    "what_happened": "Both user engagement and movie popularity exhibit classic power-law / Pareto 'long-tail' distributions.",
+    "why_did_it_happen": "A small fraction of blockbuster films and hyper-active users generate the majority of rating volume, while thousands of niche movies receive very few ratings.",
+    "why_it_matters": "L2 regularization in Matrix Factorization prevents latent embeddings of low-frequency movies and sparse users from overfitting to noise."
+  },
+  "top_movies_and_users": {
+    "what_happened": "Films like Forrest Gump, Shawshank Redemption, and Pulp Fiction lead popularity with over 300+ reviews each. The top active user contributed over 2,600 ratings.",
+    "why_did_it_happen": "Iconic, culturally ubiquitous films receive high natural viewing rates across all demographic segments.",
+    "why_it_matters": "Popular items have high confidence latent vectors with low variance, providing strong anchor points in the embedding space for collaborative filtering."
+  },
+  "highest_rated_threshold": {
+    "what_happened": "Unconstrained top movies are 1-vote anomalies with perfect 5.0 scores. Applying threshold >= 50 reveals universally acclaimed classics (Shawshank Redemption, Godfather, Fight Club).",
+    "why_did_it_happen": "Small sample size creates statistical volatility. A single enthusiastic reviewer inflates average rating to maximum.",
+    "why_it_matters": "Matrix Factorization naturally penalizes uninformative low-sample movies through movie bias regularization (b_i shrinks toward 0 when data is sparse)."
+  },
+  "matrix_sparsity": {
+    "what_happened": "98.30% of the entire user-movie matrix is empty. Even active users have only evaluated a fraction of all available films.",
+    "why_did_it_happen": "No single individual can watch all 9,700+ movies in a catalog.",
+    "why_it_matters": "Traditional memory-based collaborative filtering suffers severely in ultra-sparse settings. Low-rank Matrix Factorization solves this by projecting both users and movies into a shared low-dimensional latent space."
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "novelty_weight": 0.0,
+    "ndcg@10": 0.055,
+    "hit_rate@10": 0.2708,
+    "precision@10": 0.0372,
+    "coverage%": 4.28
+  },
+  {
+    "novelty_weight": 0.1,
+    "ndcg@10": 0.0502,
+    "hit_rate@10": 0.2491,
+    "precision@10": 0.0339,
+    "coverage%": 4.81
+  },
+  {
+    "novelty_weight": 0.2,
+    "ndcg@10": 0.0414,
+    "hit_rate@10": 0.2274,
+    "precision@10": 0.0292,
+    "coverage%": 5.74
+  },
+  {
+    "novelty_weight": 0.3,
+    "ndcg@10": 0.0349,
+    "hit_rate@10": 0.1949,
+    "precision@10": 0.0244,
+    "coverage%": 7.42
+  },
+  {
+    "novelty_weight": 0.5,
+    "ndcg@10": 0.0199,
+    "hit_rate@10": 0.1227,
+    "precision@10": 0.0148,
+    "coverage%": 12.46
+  },
+  {
+    "novelty_weight": 0.75,
+    "ndcg@10": 0.0051,
+    "hit_rate@10": 0.0271,
+    "precision@10": 0.0027,
+    "coverage%": 17.1
+  },
+  {
+    "novelty_weight": 1.0,
+    "ndcg@10": 0.0006,
+    "hit_rate@10": 0.0054,
+    "precision@10": 0.0005,
+    "coverage%": 15.02
+  },
+  {
+    "novelty_weight": 1.5,
+    "ndcg@10": 0.0001,
+    "hit_rate@10": 0.0018,
+    "precision@10": 0.0002,
+    "coverage%": 12.29
+  }
+]

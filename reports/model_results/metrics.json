@@ -1,0 +1,17 @@
+{
+  "test_rmse": 0.8523,
+  "test_mae": 0.6524,
+  "pearson_correlation": 0.5787,
+  "baseline_mean_rmse": 1.0432,
+  "baseline_mean_mae": 0.8253,
+  "rmse_improvement_percentage": 18.3,
+  "test_samples": 20168,
+  "error_mean": -0.0248,
+  "error_std": 0.8519,
+  "hit_rate@10": 0.4649,
+  "precision@10": 0.0824,
+  "recall@10": 0.0723,
+  "ndcg@10": 0.1057,
+  "catalog_coverage_percentage": 4.36,
+  "evaluated_ranking_users": 598
+}

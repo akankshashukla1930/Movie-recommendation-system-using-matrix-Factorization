@@ -1,0 +1,29 @@
+{
+  "test_rmse": 0.894,
+  "test_mae": 0.6862,
+  "pearson_correlation": 0.5491,
+  "baseline_mean_rmse": 1.0696,
+  "baseline_mean_mae": 0.8371,
+  "rmse_improvement_percentage": 16.41,
+  "test_samples": 20164,
+  "error_mean": -0.0247,
+  "error_std": 0.8937,
+  "hit_rate@10": 0.2741,
+  "precision@10": 0.043,
+  "recall@10": 0.0315,
+  "ndcg@10": 0.0537,
+  "catalog_coverage_percentage": 2.26,
+  "evaluated_ranking_users": 591,
+  "split_type": "temporal (per-user chronological)",
+  "train_period": [
+    "1996-03-29",
+    "2018-09-17"
+  ],
+  "test_period": [
+    "1996-03-29",
+    "2018-09-24"
+  ],
+  "test_ratings_on_unseen_movies": 1695,
+  "unseen_movie_percentage": 8.41,
+  "selected_epoch": 33
+}
